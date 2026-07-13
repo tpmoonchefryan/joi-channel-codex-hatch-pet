@@ -46,7 +46,7 @@
 
 Joi est une streameuse virtuelle active sur la plateforme vidéo chinoise Bilibili et affiliée au groupe d’artistes virtuels VirtuaReal.
 
-Elle aime le pixel art, le [cyberpunk](https://zh.moegirl.org.cn/%E8%B5%9B%E5%8D%9A%E6%9C%8B%E5%85%8B) et le film *Blade Runner*. Elle n’aime pas le sport. Son talent particulier est de manger une orange entière en une seule bouchée, et elle considère l’orange comme le fruit le plus parfait. L’orange `🍊` est ainsi devenue son emoji de fait, sans être officielle. Suivez Joi sur son [profil Bilibili](https://space.bilibili.com/61639371).
+Elle aime le pixel art, le cyberpunk et le film *Blade Runner*. Elle n’aime pas le sport. Son talent particulier est de manger une orange entière en une seule bouchée, et elle considère l’orange comme le fruit le plus parfait. L’orange `🍊` est ainsi devenue son emoji de fait, sans être officielle. Suivez le [profil Bilibili de Joi_Channel](https://space.bilibili.com/61639371).
 
 Ce dépôt est un projet de fans Codex Pet v2 indépendant et non officiel, destiné uniquement à un usage personnel et non commercial.
 

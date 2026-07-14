@@ -127,8 +127,8 @@ This repository is an independent, unofficial Codex Pet v2 fan project for perso
 | 4 | `jumping` | 5 frames; about `140 ms` for each of the first four, then `280 ms` | A jump sequence covering preparation, takeoff, apex, descent, and landing. |
 | 5 | `failed` | 8 frames; about `140 ms` for each of the first seven, then `240 ms` | A disappointed reaction used for failure, cancellation, or blocked-task feedback. |
 | 6 | `waiting` | 6 frames; about `150 ms` for each of the first five, then `260 ms` | An expectant gesture used when approval, help, or user input is needed. |
-| 7 | `running` | 6 frames; about `120 ms` for each of the first five, then `220 ms` | The active-task state, showing Joi interacting with the terminal at her waist. |
-| 8 | `review` | 6 frames; about `150 ms` for each of the first five, then `280 ms` | A focused inspection pose used when reviewing a completed result. |
+| 7 | `running` | 6 frames; about `120 ms` for each of the first five, then `220 ms` | A single fixed-size terminal remains independently floating, unattached, and unchanged in silhouette; Joi air-types toward it while only the cyan code inside the screen updates, with no unfolding, folding, or keyboard deck. |
+| 8 | `review` | 6 frames; about `150 ms` for each of the first five, then `280 ms` | The same fixed-size terminal remains independently floating, unattached, and unchanged; Joi reviews it with gestures while only the cyan scan line moves inside the screen, and her eyes, head, and upper body follow the pass before the loop settles. |
 | 9 | `look A` up to lower-right | 8 directions | Direction states `000 → 022.5 → 045 → 067.5 → 090 → 112.5 → 135 → 157.5`. |
 | 10 | `look B` down to upper-left | 8 directions | Direction states `180 → 202.5 → 225 → 247.5 → 270 → 292.5 → 315 → 337.5`. |
 
@@ -153,7 +153,7 @@ This repository is an independent, unofficial Codex Pet v2 fan project for perso
 | License | Non-commercial use only |
 | Local installation directory | `~/.codex/pets/joi/` |
 
-**Asset files:** [`pet.json`](./pet/pet.json) · [`spritesheet.webp`](./pet/spritesheet.webp) · [`joi-pet.zip`](./release/joi-pet.zip) · [License](./LICENSE.md)
+**Asset files:** [`pet.json`](./pet/pet.json) · [`spritesheet.webp`](./pet/spritesheet.webp) · [GitHub Release package](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest/download/joi-pet.zip) · [License](./LICENSE.md)
 
 <details>
 <summary><strong>View repository structure and naming conventions</strong></summary>
@@ -170,12 +170,9 @@ joi-channel-codex-hatch-pet/
 ├── pet/
 │   ├── pet.json
 │   └── spritesheet.webp
-├── assets/
-│   ├── contact-sheet.png
-│   └── previews/
-└── release/
-    ├── joi-pet.zip
-    └── joi-pet.json
+└── assets/
+    ├── contact-sheet.png
+    └── previews/
 ```
 
 - This English document uses `Joi`.
@@ -198,7 +195,7 @@ cp pet/pet.json pet/spritesheet.webp "$PET_DIR/"
 ```
 
 > [!TIP]
-> You can also use [`release/joi-pet.zip`](./release/joi-pet.zip) directly. `pet.json` must be in the same directory as `spritesheet.webp`, and `spriteVersionNumber: 2` must be retained.
+> Download the latest `joi-pet.zip` from [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest). While the repository is private, downloads are available only to authorized GitHub accounts. After extracting it, place `pet.json` and `spritesheet.webp` together in `~/.codex/pets/joi/` and retain `spriteVersionNumber: 2`.
 
 <a id="license"></a>
 
@@ -225,11 +222,12 @@ The license covers only original contributions that the project maintainers or c
 ## Review status
 
 > [!NOTE]
-> This repository is hosted as a private GitHub repository for owner review only. No GitHub Release, Package, or public deployment has been created. It will not be made public until the owner explicitly approves publication.
+> This repository remains private for owner review. Installable packages are now hosted through [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases), and the `release/` directory is no longer maintained in Git. Release visibility follows repository visibility; the repository will not be made public until the owner explicitly approves publication.
 
 - [x] Desktop-pet assets and installable package prepared
 - [x] README and translated documentation completed
 - [x] Pushed to a private GitHub repository
+- [x] Installable package moved to GitHub Releases
 - [ ] Owner completes the public-release review
 - [ ] Repository visibility changes to Public
 

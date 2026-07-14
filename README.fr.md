@@ -127,8 +127,8 @@ Ce dépôt est un projet de fans Codex Pet v2 indépendant et non officiel, dest
 | 4 | `jumping` saut | 5 images ; environ `140 ms` pour chacune des quatre premières, puis `280 ms` | Une séquence de saut comprenant la préparation, le décollage, le sommet, la descente et la réception. |
 | 5 | `failed` retour d’échec | 8 images ; environ `140 ms` pour chacune des sept premières, puis `240 ms` | Une réaction déçue utilisée pour signaler un échec, une annulation ou une tâche bloquée. |
 | 6 | `waiting` attente d’une saisie | 6 images ; environ `150 ms` pour chacune des cinq premières, puis `260 ms` | Un geste d’attente utilisé lorsqu’une approbation, une aide ou une saisie utilisateur est nécessaire. |
-| 7 | `running` exécution de tâche | 6 images ; environ `120 ms` pour chacune des cinq premières, puis `220 ms` | L’état de tâche active, dans lequel Joi interagit avec le terminal placé à sa taille. |
-| 8 | `review` vérification du résultat | 6 images ; environ `150 ms` pour chacune des cinq premières, puis `280 ms` | Une posture attentive utilisée lors de la vérification d’un résultat terminé. |
+| 7 | `running` exécution de tâche | 6 images ; environ `120 ms` pour chacune des cinq premières, puis `220 ms` | Un unique terminal de taille fixe reste suspendu indépendamment, sans attache et sans changer de silhouette ; Joi saisit dans les airs en sa direction, tandis que seules les lignes de code cyan à l’intérieur de l’écran s’actualisent, sans déploiement, repli ni clavier. |
+| 8 | `review` vérification du résultat | 6 images ; environ `150 ms` pour chacune des cinq premières, puis `280 ms` | Le même terminal de taille fixe reste suspendu indépendamment, sans attache et sans changer de forme ; Joi l’examine par gestes, tandis que seule la ligne de balayage cyan se déplace à l’intérieur de l’écran. Son regard, sa tête et le haut de son corps suivent le balayage avant la reprise de la boucle. |
 | 9 | `look A` du haut vers le bas à droite | 8 directions | États directionnels `000 → 022.5 → 045 → 067.5 → 090 → 112.5 → 135 → 157.5`. |
 | 10 | `look B` du bas vers le haut à gauche | 8 directions | États directionnels `180 → 202.5 → 225 → 247.5 → 270 → 292.5 → 315 → 337.5`. |
 
@@ -153,7 +153,7 @@ Ce dépôt est un projet de fans Codex Pet v2 indépendant et non officiel, dest
 | Licence | Usage non commercial uniquement |
 | Répertoire d’installation locale | `~/.codex/pets/joi/` |
 
-**Fichiers des ressources :** [`pet.json`](./pet/pet.json) · [`spritesheet.webp`](./pet/spritesheet.webp) · [`joi-pet.zip`](./release/joi-pet.zip) · [Licence](./LICENSE.md)
+**Fichiers des ressources :** [`pet.json`](./pet/pet.json) · [`spritesheet.webp`](./pet/spritesheet.webp) · [Paquet GitHub Release](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest/download/joi-pet.zip) · [Licence](./LICENSE.md)
 
 <details>
 <summary><strong>Afficher la structure du dépôt et les conventions de nommage</strong></summary>
@@ -170,12 +170,9 @@ joi-channel-codex-hatch-pet/
 ├── pet/
 │   ├── pet.json
 │   └── spritesheet.webp
-├── assets/
-│   ├── contact-sheet.png
-│   └── previews/
-└── release/
-    ├── joi-pet.zip
-    └── joi-pet.json
+└── assets/
+    ├── contact-sheet.png
+    └── previews/
 ```
 
 - Ce document français utilise `Joi`.
@@ -198,7 +195,7 @@ cp pet/pet.json pet/spritesheet.webp "$PET_DIR/"
 ```
 
 > [!TIP]
-> Vous pouvez également utiliser directement [`release/joi-pet.zip`](./release/joi-pet.zip). `pet.json` doit se trouver dans le même répertoire que `spritesheet.webp`, et `spriteVersionNumber: 2` doit être conservé.
+> Téléchargez la dernière version de `joi-pet.zip` depuis [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest). Tant que le dépôt est privé, seuls les comptes GitHub autorisés peuvent la télécharger. Après extraction, placez ensemble `pet.json` et `spritesheet.webp` dans `~/.codex/pets/joi/` et conservez `spriteVersionNumber: 2`.
 
 <a id="license"></a>
 
@@ -225,11 +222,12 @@ La licence ne couvre que les contributions originales que les responsables ou co
 ## État de la vérification
 
 > [!NOTE]
-> Ce dépôt est hébergé en tant que dépôt GitHub privé, uniquement pour la vérification par le propriétaire. Aucun GitHub Release, Package ou déploiement public n’a été créé. Il ne sera pas rendu public avant l’approbation explicite du propriétaire.
+> Ce dépôt reste privé pour la vérification par le propriétaire. Les paquets installables sont désormais hébergés dans [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases), et le répertoire `release/` n’est plus conservé dans Git. La visibilité des Releases suit celle du dépôt ; celui-ci ne sera pas rendu public avant l’approbation explicite du propriétaire.
 
 - [x] Ressources du compagnon de bureau et paquet installable préparés
 - [x] README et traductions terminés
 - [x] Dépôt envoyé vers un dépôt GitHub privé
+- [x] Paquet installable déplacé vers GitHub Releases
 - [ ] Vérification de la publication publique terminée par le propriétaire
 - [ ] Visibilité du dépôt passée à Public
 

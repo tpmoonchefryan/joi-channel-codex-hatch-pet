@@ -125,8 +125,8 @@ Joi は、中国の動画プラットフォーム Bilibili で活動し、バー
 | 4 | `jumping` ジャンプ | 5フレーム；最初の4フレームは約 `140 ms`、最後は `280 ms` | 踏み込み、離地、頂点、下降、着地を順に描き、体の高さと姿勢の変化で弾む動きを表現します。 |
 | 5 | `failed` 失敗フィードバック | 8フレーム；最初の7フレームは約 `140 ms`、最後は `240 ms` | 落ち込んだ表情から、はっきりとした沈み込みと体を縮める姿勢へ移り、再び作業を続けられる状態へ戻ります。失敗、キャンセル、ブロック時のフィードバックに使用します。 |
 | 6 | `waiting` 入力待ち | 6フレーム；最初の5フレームは約 `150 ms`、最後は `260 ms` | 期待や問いかけを感じさせる視線と手の動きで、「承認、支援、またはユーザー入力が必要」であることを示します。通常の待機やレビュー状態とは明確に区別されます。 |
-| 7 | `running` タスク実行 | 6フレーム；最初の5フレームは約 `120 ms`、最後は `220 ms` | ここでの `running` はタスクの処理中を意味し、走る動作ではありません。Joiが腰の端末を使い、集中して操作、思考、フィードバックを行います。 |
-| 8 | `review` 結果レビュー | 6フレーム；最初の5フレームは約 `150 ms`、最後は `280 ms` | 視線、頭の傾き、前傾姿勢、手の動きの変化で、完了した結果を確認する様子を表します。 |
+| 7 | `running` タスク実行 | 6フレーム；最初の5フレームは約 `120 ms`、最後は `220 ms` | 固定サイズの端末が身体に接続されない独立した浮遊状態と同じ外形を保ち、Joiは端末に向かって空中入力します。変化するのは画面内のシアンのコードだけで、展開・収納・キーボード化はありません。 |
+| 8 | `review` 結果レビュー | 6フレーム；最初の5フレームは約 `150 ms`、最後は `280 ms` | 同じ固定サイズの端末が身体に接続されない独立した浮遊状態と外形を保ち、Joiはジェスチャーで内容を確認します。動くのは画面内のシアンのスキャンラインだけで、視線・頭・上半身が走査位置を追ってから滑らかにループへ戻ります。 |
 | 9 | `look A` 上から右下 | 8方向 | `000 → 022.5 → 045 → 067.5 → 090 → 112.5 → 135 → 157.5`；上方から画面右を経て右下へ、視線が連続して移ります。 |
 | 10 | `look B` 下から左上 | 8方向 | `180 → 202.5 → 225 → 247.5 → 270 → 292.5 → 315 → 337.5`；下方から画面左を経て左上へ、視線が連続して移ります。 |
 
@@ -151,7 +151,7 @@ Joi は、中国の動画プラットフォーム Bilibili で活動し、バー
 | ライセンス | 非商用利用のみ |
 | ローカルインストール先 | `~/.codex/pets/joi/` |
 
-**ファイル：** [`pet.json`](./pet/pet.json) · [`spritesheet.webp`](./pet/spritesheet.webp) · [`joi-pet.zip`](./release/joi-pet.zip) · [ライセンス](./LICENSE.md)
+**ファイル：** [`pet.json`](./pet/pet.json) · [`spritesheet.webp`](./pet/spritesheet.webp) · [GitHub Release パッケージ](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest/download/joi-pet.zip) · [ライセンス](./LICENSE.md)
 
 <details>
 <summary><strong>リポジトリ構成と命名規約を表示</strong></summary>
@@ -168,12 +168,9 @@ joi-channel-codex-hatch-pet/
 ├── pet/
 │   ├── pet.json
 │   └── spritesheet.webp
-├── assets/
-│   ├── contact-sheet.png
-│   └── previews/
-└── release/
-    ├── joi-pet.zip
-    └── joi-pet.json
+└── assets/
+    ├── contact-sheet.png
+    └── previews/
 ```
 
 - この日本語版では `Joi`
@@ -197,7 +194,7 @@ cp pet/pet.json pet/spritesheet.webp "$PET_DIR/"
 ```
 
 > [!TIP]
-> [`release/joi-pet.zip`](./release/joi-pet.zip) も直接利用できます。`pet.json` は `spritesheet.webp` と同じディレクトリに置き、`spriteVersionNumber: 2` を削除しないでください。
+> 最新の `joi-pet.zip` は [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest) からダウンロードしてください。リポジトリが非公開の間は、許可された GitHub アカウントのみダウンロードできます。展開後、`pet.json` と `spritesheet.webp` を一緒に `~/.codex/pets/joi/` へ配置し、`spriteVersionNumber: 2` を保持してください。
 
 <a id="license"></a>
 
@@ -224,11 +221,12 @@ Joi の名称、キャラクター像、設定、ならびに VirtuaReal、Bilib
 ## レビュー状況
 
 > [!NOTE]
-> 本リポジトリは所有者によるレビューのため GitHub の非公開リポジトリでホストされています。GitHub Release、Package、公開デプロイは作成しておらず、所有者が明示的に承認するまで Public には切り替えません。
+> 本リポジトリは引き続き所有者レビュー用の非公開リポジトリです。インストールパッケージは [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases) で配布し、Git 内の `release/` ディレクトリは廃止しました。Release の公開範囲はリポジトリに従い、所有者が明示的に承認するまで Public には切り替えません。
 
 - [x] デスクトップペットのアセットとインストールパッケージを整理済み
 - [x] README と多言語ドキュメントを作成済み
 - [x] GitHub の非公開リポジトリへプッシュ済み
+- [x] インストールパッケージを GitHub Releases へ移行済み
 - [ ] 所有者による公開レビューの完了
 - [ ] Public への切り替え
 

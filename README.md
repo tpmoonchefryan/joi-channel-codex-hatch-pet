@@ -131,8 +131,8 @@
 | 4 | `jumping` 跳跃 | 5 帧；前四帧约 `140 ms`，末帧 `280 ms` | 依次呈现蓄力、离地、顶点、下降与落稳。 |
 | 5 | `failed` 失败反馈 | 8 帧；前七帧约 `140 ms`，末帧 `240 ms` | 从失落表情过渡到明显的沮丧与收拢姿态，用于失败、取消或受阻反馈。 |
 | 6 | `waiting` 等待输入 | 6 帧；前五帧约 `150 ms`，末帧 `260 ms` | 以期待、询问式的眼神和手部动作表达需要批准、帮助或用户输入。 |
-| 7 | `running` 任务执行 | 6 帧；前五帧约 `120 ms`，末帧 `220 ms` | 表示任务正在处理，通过操作、思考与反馈动作呈现专注状态。 |
-| 8 | `review` 结果审阅 | 6 帧；前五帧约 `150 ms`，末帧 `280 ms` | 通过视线、头部倾角、身体前倾和手部变化表现对完成结果的检查。 |
+| 7 | `running` 任务执行 | 6 帧；前五帧约 `120 ms`，末帧 `220 ms` | 一块固定尺寸、独立悬浮且不与身体相连的终端始终保持同一外形；轴伊朝它隔空键入，只有屏幕内的青色代码行随节奏刷新，不存在展开、收起或键盘层。 |
+| 8 | `review` 结果审阅 | 6 帧；前五帧约 `150 ms`，末帧 `280 ms` | 同一块固定尺寸、独立悬浮且不与身体相连的终端保持原状；轴伊以手势审阅，只有屏幕内的青色扫描线移动，视线、头部和上身随扫描位置联动后平稳回环。 |
 | 9 | `look A` 上至右下 | 8 个方向 | `000 → 022.5 → 045 → 067.5 → 090 → 112.5 → 135 → 157.5`；视线由上方连续转向右侧，再靠近下方。 |
 | 10 | `look B` 下至左上 | 8 个方向 | `180 → 202.5 → 225 → 247.5 → 270 → 292.5 → 315 → 337.5`；视线由下方连续转向左侧，再回到上方。 |
 
@@ -157,7 +157,7 @@
 | 许可 | 仅限非商业用途 |
 | 本地安装目录 | `~/.codex/pets/joi/` |
 
-**文件入口：** [`pet.json`](./pet/pet.json) · [`spritesheet.webp`](./pet/spritesheet.webp) · [`joi-pet.zip`](./release/joi-pet.zip) · [许可证](./LICENSE.md)
+**文件入口：** [`pet.json`](./pet/pet.json) · [`spritesheet.webp`](./pet/spritesheet.webp) · [GitHub Release 安装包](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest/download/joi-pet.zip) · [许可证](./LICENSE.md)
 
 <details>
 <summary><strong>查看仓库结构与命名约定</strong></summary>
@@ -174,12 +174,9 @@ joi-channel-codex-hatch-pet/
 ├── pet/
 │   ├── pet.json
 │   └── spritesheet.webp
-├── assets/
-│   ├── contact-sheet.png
-│   └── previews/
-└── release/
-    ├── joi-pet.zip
-    └── joi-pet.json
+└── assets/
+    ├── contact-sheet.png
+    └── previews/
 ```
 
 - 简体中文：`轴伊Joi`
@@ -202,7 +199,7 @@ cp pet/pet.json pet/spritesheet.webp "$PET_DIR/"
 ```
 
 > [!TIP]
-> 也可以直接使用 [`release/joi-pet.zip`](./release/joi-pet.zip)。`pet.json` 必须与 `spritesheet.webp` 位于同一目录，且需保留 `spriteVersionNumber: 2`。
+> 推荐从 [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest) 下载最新版 `joi-pet.zip`。当前私密仓库仅允许已授权的 GitHub 账户下载；解压后请将 `pet.json` 与 `spritesheet.webp` 一同放入 `~/.codex/pets/joi/`，并保留 `spriteVersionNumber: 2`。
 
 <a id="license"></a>
 
@@ -229,11 +226,12 @@ cp pet/pet.json pet/spritesheet.webp "$PET_DIR/"
 ## 审核状态
 
 > [!NOTE]
-> 当前仓库托管于 GitHub 私密仓库，仅供所有者审核。尚未创建 GitHub Release、Package 或公开部署；在所有者明确确认前不会切换为公开仓库。
+> 当前仓库仍为私密审核状态，安装包改由 [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases) 托管，不再在 Git 仓库内维护 `release/` 目录。Release 的可见性跟随仓库；在所有者明确确认前不会切换为 Public。
 
 - [x] 桌宠资产与安装包整理完成
 - [x] README 与多语言文档完成
 - [x] 推送至 GitHub 私密仓库
+- [x] 安装包改由 GitHub Release 托管
 - [ ] 所有者完成公开发布审核
 - [ ] 切换为 Public
 

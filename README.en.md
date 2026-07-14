@@ -26,7 +26,7 @@
   <img alt="Codex Pet v2" src="https://img.shields.io/badge/Codex%20Pet-v2-8B5CF6?style=flat-square">
   <img alt="Atlas 1536 by 2288" src="https://img.shields.io/badge/atlas-1536%C3%972288-475569?style=flat-square">
   <a href="./LICENSE.md"><img alt="Non-commercial license" src="https://img.shields.io/badge/license-non--commercial-E11D48?style=flat-square"></a>
-  <img alt="GitHub private review" src="https://img.shields.io/badge/GitHub-private%20review-F59E0B?style=flat-square&logo=github">
+  <a href="https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest"><img alt="GitHub Release v1.0.0" src="https://img.shields.io/badge/release-v1.0.0-2DA44E?style=flat-square&logo=github"></a>
 </p>
 
 <p align="center">
@@ -34,8 +34,7 @@
   <a href="#actions">Actions</a> ·
   <a href="#specification">Specification</a> ·
   <a href="#installation">Installation</a> ·
-  <a href="#license">License</a> ·
-  <a href="#review">Review status</a>
+  <a href="#license">License</a>
 </p>
 
 ---
@@ -195,7 +194,7 @@ cp pet/pet.json pet/spritesheet.webp "$PET_DIR/"
 ```
 
 > [!TIP]
-> Download the latest `joi-pet.zip` from [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest). While the repository is private, downloads are available only to authorized GitHub accounts. After extracting it, place `pet.json` and `spritesheet.webp` together in `~/.codex/pets/joi/` and retain `spriteVersionNumber: 2`.
+> Download the latest `joi-pet.zip` from [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest). After extracting it, place `pet.json` and `spritesheet.webp` together in `~/.codex/pets/joi/` and retain `spriteVersionNumber: 2`.
 
 <a id="license"></a>
 
@@ -217,22 +216,8 @@ cp pet/pet.json pet/spritesheet.webp "$PET_DIR/"
 
 The license covers only original contributions that the project maintainers or contributors are legally entitled to license. See [`LICENSE.md`](./LICENSE.md) for the complete terms and [`THIRD_PARTY_NOTICES.md`](./THIRD_PARTY_NOTICES.md) for boundaries concerning the character, brands, and source material.
 
-<a id="review"></a>
-
-## Review status
-
-> [!NOTE]
-> This repository remains private for owner review. Installable packages are now hosted through [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases), and the `release/` directory is no longer maintained in Git. Release visibility follows repository visibility; the repository will not be made public until the owner explicitly approves publication.
-
-- [x] Desktop-pet assets and installable package prepared
-- [x] README and translated documentation completed
-- [x] Pushed to a private GitHub repository
-- [x] Installable package moved to GitHub Releases
-- [ ] Owner completes the public-release review
-- [ ] Repository visibility changes to Public
-
 ---
 
 <p align="center">
-  <sub>Unofficial fan project · Non-commercial only · Private review</sub>
+  <sub>Unofficial fan project · Non-commercial only</sub>
 </p>

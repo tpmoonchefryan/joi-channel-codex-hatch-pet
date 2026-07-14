@@ -26,7 +26,7 @@
   <img alt="Codex Pet v2" src="https://img.shields.io/badge/Codex%20Pet-v2-8B5CF6?style=flat-square">
   <img alt="Atlas 1536 by 2288" src="https://img.shields.io/badge/atlas-1536%C3%972288-475569?style=flat-square">
   <a href="./LICENSE.md"><img alt="비상업 라이선스" src="https://img.shields.io/badge/license-non--commercial-E11D48?style=flat-square"></a>
-  <img alt="GitHub 비공개 검토" src="https://img.shields.io/badge/GitHub-private%20review-F59E0B?style=flat-square&logo=github">
+  <a href="https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest"><img alt="GitHub Release v1.0.0" src="https://img.shields.io/badge/release-v1.0.0-2DA44E?style=flat-square&logo=github"></a>
 </p>
 
 <p align="center">
@@ -34,8 +34,7 @@
   <a href="#actions">동작</a> ·
   <a href="#specification">규격</a> ·
   <a href="#installation">설치</a> ·
-  <a href="#license">라이선스</a> ·
-  <a href="#review">검토</a>
+  <a href="#license">라이선스</a>
 </p>
 
 ---
@@ -191,7 +190,7 @@ cp pet/pet.json pet/spritesheet.webp "$PET_DIR/"
 ```
 
 > [!TIP]
-> 최신 `joi-pet.zip`은 [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest)에서 다운로드하세요. 저장소가 비공개인 동안에는 권한이 있는 GitHub 계정만 다운로드할 수 있습니다. 압축을 푼 뒤 `pet.json`과 `spritesheet.webp`를 함께 `~/.codex/pets/joi/`에 배치하고 `spriteVersionNumber: 2`를 유지하세요.
+> 최신 `joi-pet.zip`은 [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest)에서 다운로드하세요. 압축을 푼 뒤 `pet.json`과 `spritesheet.webp`를 함께 `~/.codex/pets/joi/`에 배치하고 `spriteVersionNumber: 2`를 유지하세요.
 
 <a id="license"></a>
 
@@ -213,22 +212,8 @@ cp pet/pet.json pet/spritesheet.webp "$PET_DIR/"
 
 Joi의 이름, 캐릭터 형상과 설정, 그리고 VirtuaReal, Bilibili 및 그 밖의 제3자에 속한 이름, 상표, 자료 등의 권리는 각 적법한 권리자에게 유보됩니다. 이 저장소의 라이선스는 그러한 제3자 권리를 부여하지 않습니다. 자세한 내용은 [`LICENSE.md`](./LICENSE.md)와 [`THIRD_PARTY_NOTICES.md`](./THIRD_PARTY_NOTICES.md)를 확인하세요.
 
-<a id="review"></a>
-
-## 검토 상태
-
-> [!NOTE]
-> 이 저장소는 계속 소유자 검토용 비공개 저장소로 유지됩니다. 설치 패키지는 [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases)에서 제공하며 Git의 `release/` 디렉터리는 더 이상 유지하지 않습니다. Release 공개 범위는 저장소 공개 범위를 따르며, 소유자가 명시적으로 승인하기 전에는 Public으로 전환하지 않습니다.
-
-- [x] 데스크톱 펫 에셋 및 설치 패키지 정리 완료
-- [x] README 및 다국어 문서 작성 완료
-- [x] GitHub 비공개 저장소에 푸시 완료
-- [x] 설치 패키지를 GitHub Releases로 이전 완료
-- [ ] 소유자의 공개 검토 완료
-- [ ] Public 전환
-
 ---
 
 <p align="center">
-  <sub>Unofficial fan project · Non-commercial only · Private review</sub>
+  <sub>Unofficial fan project · Non-commercial only</sub>
 </p>

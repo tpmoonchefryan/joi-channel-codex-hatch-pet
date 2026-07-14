@@ -26,7 +26,7 @@
   <img alt="Codex Pet v2" src="https://img.shields.io/badge/Codex%20Pet-v2-8B5CF6?style=flat-square">
   <img alt="Atlas 1536 par 2288" src="https://img.shields.io/badge/atlas-1536%C3%972288-475569?style=flat-square">
   <a href="./LICENSE.md"><img alt="Licence non commerciale" src="https://img.shields.io/badge/license-non--commercial-E11D48?style=flat-square"></a>
-  <img alt="Vérification GitHub privée" src="https://img.shields.io/badge/GitHub-private%20review-F59E0B?style=flat-square&logo=github">
+  <a href="https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest"><img alt="GitHub Release v1.0.0" src="https://img.shields.io/badge/release-v1.0.0-2DA44E?style=flat-square&logo=github"></a>
 </p>
 
 <p align="center">
@@ -34,8 +34,7 @@
   <a href="#actions">Actions</a> ·
   <a href="#specification">Spécifications</a> ·
   <a href="#installation">Installation</a> ·
-  <a href="#license">Licence</a> ·
-  <a href="#review">Vérification</a>
+  <a href="#license">Licence</a>
 </p>
 
 ---
@@ -195,7 +194,7 @@ cp pet/pet.json pet/spritesheet.webp "$PET_DIR/"
 ```
 
 > [!TIP]
-> Téléchargez la dernière version de `joi-pet.zip` depuis [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest). Tant que le dépôt est privé, seuls les comptes GitHub autorisés peuvent la télécharger. Après extraction, placez ensemble `pet.json` et `spritesheet.webp` dans `~/.codex/pets/joi/` et conservez `spriteVersionNumber: 2`.
+> Téléchargez la dernière version de `joi-pet.zip` depuis [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest). Après extraction, placez ensemble `pet.json` et `spritesheet.webp` dans `~/.codex/pets/joi/` et conservez `spriteVersionNumber: 2`.
 
 <a id="license"></a>
 
@@ -217,22 +216,8 @@ cp pet/pet.json pet/spritesheet.webp "$PET_DIR/"
 
 La licence ne couvre que les contributions originales que les responsables ou contributeurs du projet sont légalement habilités à concéder. Les conditions complètes figurent dans [`LICENSE.md`](./LICENSE.md), et les limites relatives au personnage, aux marques et aux sources figurent dans [`THIRD_PARTY_NOTICES.md`](./THIRD_PARTY_NOTICES.md).
 
-<a id="review"></a>
-
-## État de la vérification
-
-> [!NOTE]
-> Ce dépôt reste privé pour la vérification par le propriétaire. Les paquets installables sont désormais hébergés dans [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases), et le répertoire `release/` n’est plus conservé dans Git. La visibilité des Releases suit celle du dépôt ; celui-ci ne sera pas rendu public avant l’approbation explicite du propriétaire.
-
-- [x] Ressources du compagnon de bureau et paquet installable préparés
-- [x] README et traductions terminés
-- [x] Dépôt envoyé vers un dépôt GitHub privé
-- [x] Paquet installable déplacé vers GitHub Releases
-- [ ] Vérification de la publication publique terminée par le propriétaire
-- [ ] Visibilité du dépôt passée à Public
-
 ---
 
 <p align="center">
-  <sub>Projet de fans non officiel · Usage non commercial uniquement · Vérification privée</sub>
+  <sub>Projet de fans non officiel · Usage non commercial uniquement</sub>
 </p>

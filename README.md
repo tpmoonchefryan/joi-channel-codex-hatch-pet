@@ -26,7 +26,7 @@
   <img alt="Codex Pet v2" src="https://img.shields.io/badge/Codex%20Pet-v2-8B5CF6?style=flat-square">
   <img alt="Atlas 1536 by 2288" src="https://img.shields.io/badge/atlas-1536%C3%972288-475569?style=flat-square">
   <a href="./LICENSE.md"><img alt="非商业许可证" src="https://img.shields.io/badge/license-non--commercial-E11D48?style=flat-square"></a>
-  <img alt="GitHub 私密审核" src="https://img.shields.io/badge/GitHub-private%20review-F59E0B?style=flat-square&logo=github">
+  <a href="https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest"><img alt="GitHub Release v1.0.0" src="https://img.shields.io/badge/release-v1.0.0-2DA44E?style=flat-square&logo=github"></a>
 </p>
 
 <p align="center">
@@ -34,8 +34,7 @@
   <a href="#actions">动作预览</a> ·
   <a href="#specification">资产规格</a> ·
   <a href="#installation">本地安装</a> ·
-  <a href="#license">许可说明</a> ·
-  <a href="#review">审核状态</a>
+  <a href="#license">许可说明</a>
 </p>
 
 ---
@@ -199,7 +198,7 @@ cp pet/pet.json pet/spritesheet.webp "$PET_DIR/"
 ```
 
 > [!TIP]
-> 推荐从 [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest) 下载最新版 `joi-pet.zip`。当前私密仓库仅允许已授权的 GitHub 账户下载；解压后请将 `pet.json` 与 `spritesheet.webp` 一同放入 `~/.codex/pets/joi/`，并保留 `spriteVersionNumber: 2`。
+> 推荐从 [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest) 下载最新版 `joi-pet.zip`。解压后请将 `pet.json` 与 `spritesheet.webp` 一同放入 `~/.codex/pets/joi/`，并保留 `spriteVersionNumber: 2`。
 
 <a id="license"></a>
 
@@ -221,22 +220,8 @@ cp pet/pet.json pet/spritesheet.webp "$PET_DIR/"
 
 许可仅覆盖项目维护者或贡献者依法有权许可的原创部分。完整条款见 [`LICENSE.md`](./LICENSE.md)，角色、品牌与资料来源的权利边界见 [`THIRD_PARTY_NOTICES.md`](./THIRD_PARTY_NOTICES.md)。
 
-<a id="review"></a>
-
-## 审核状态
-
-> [!NOTE]
-> 当前仓库仍为私密审核状态，安装包改由 [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases) 托管，不再在 Git 仓库内维护 `release/` 目录。Release 的可见性跟随仓库；在所有者明确确认前不会切换为 Public。
-
-- [x] 桌宠资产与安装包整理完成
-- [x] README 与多语言文档完成
-- [x] 推送至 GitHub 私密仓库
-- [x] 安装包改由 GitHub Release 托管
-- [ ] 所有者完成公开发布审核
-- [ ] 切换为 Public
-
 ---
 
 <p align="center">
-  <sub>Unofficial fan project · Non-commercial only · Private review</sub>
+  <sub>Unofficial fan project · Non-commercial only</sub>
 </p>

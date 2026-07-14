@@ -26,7 +26,7 @@
   <img alt="Codex Pet v2" src="https://img.shields.io/badge/Codex%20Pet-v2-8B5CF6?style=flat-square">
   <img alt="Atlas 1536 by 2288" src="https://img.shields.io/badge/atlas-1536%C3%972288-475569?style=flat-square">
   <a href="./LICENSE.md"><img alt="非商用ライセンス" src="https://img.shields.io/badge/license-non--commercial-E11D48?style=flat-square"></a>
-  <img alt="GitHub 非公開レビュー" src="https://img.shields.io/badge/GitHub-private%20review-F59E0B?style=flat-square&logo=github">
+  <a href="https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest"><img alt="GitHub Release v1.0.0" src="https://img.shields.io/badge/release-v1.0.0-2DA44E?style=flat-square&logo=github"></a>
 </p>
 
 <p align="center">
@@ -34,8 +34,7 @@
   <a href="#actions">アクション</a> ·
   <a href="#specification">仕様</a> ·
   <a href="#installation">インストール</a> ·
-  <a href="#license">ライセンス</a> ·
-  <a href="#review">レビュー</a>
+  <a href="#license">ライセンス</a>
 </p>
 
 ---
@@ -194,7 +193,7 @@ cp pet/pet.json pet/spritesheet.webp "$PET_DIR/"
 ```
 
 > [!TIP]
-> 最新の `joi-pet.zip` は [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest) からダウンロードしてください。リポジトリが非公開の間は、許可された GitHub アカウントのみダウンロードできます。展開後、`pet.json` と `spritesheet.webp` を一緒に `~/.codex/pets/joi/` へ配置し、`spriteVersionNumber: 2` を保持してください。
+> 最新の `joi-pet.zip` は [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest) からダウンロードしてください。展開後、`pet.json` と `spritesheet.webp` を一緒に `~/.codex/pets/joi/` へ配置し、`spriteVersionNumber: 2` を保持してください。
 
 <a id="license"></a>
 
@@ -216,22 +215,8 @@ cp pet/pet.json pet/spritesheet.webp "$PET_DIR/"
 
 Joi の名称、キャラクター像、設定、ならびに VirtuaReal、Bilibili その他の第三者に属する名称、商標、素材等の権利は、それぞれの正当な権利者に留保されます。本リポジトリのライセンスは、それら第三者の権利を付与するものではありません。詳細は [`LICENSE.md`](./LICENSE.md) と [`THIRD_PARTY_NOTICES.md`](./THIRD_PARTY_NOTICES.md) を参照してください。
 
-<a id="review"></a>
-
-## レビュー状況
-
-> [!NOTE]
-> 本リポジトリは引き続き所有者レビュー用の非公開リポジトリです。インストールパッケージは [GitHub Releases](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases) で配布し、Git 内の `release/` ディレクトリは廃止しました。Release の公開範囲はリポジトリに従い、所有者が明示的に承認するまで Public には切り替えません。
-
-- [x] デスクトップペットのアセットとインストールパッケージを整理済み
-- [x] README と多言語ドキュメントを作成済み
-- [x] GitHub の非公開リポジトリへプッシュ済み
-- [x] インストールパッケージを GitHub Releases へ移行済み
-- [ ] 所有者による公開レビューの完了
-- [ ] Public への切り替え
-
 ---
 
 <p align="center">
-  <sub>Unofficial fan project · Non-commercial only · Private review</sub>
+  <sub>Unofficial fan project · Non-commercial only</sub>
 </p>

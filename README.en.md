@@ -25,8 +25,9 @@
 <p align="center">
   <img alt="Codex Pet v2" src="https://img.shields.io/badge/Codex%20Pet-v2-8B5CF6?style=flat-square">
   <img alt="Atlas 1536 by 2288" src="https://img.shields.io/badge/atlas-1536%C3%972288-475569?style=flat-square">
-  <a href="./LICENSE.md"><img alt="Non-commercial license" src="https://img.shields.io/badge/license-non--commercial-E11D48?style=flat-square"></a>
-  <a href="https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest"><img alt="GitHub Release v1.0.0" src="https://img.shields.io/badge/release-v1.0.0-2DA44E?style=flat-square&logo=github"></a>
+  <a href="./LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/code-MIT-3DA639?style=flat-square"></a>
+  <a href="./LICENSE-ASSETS.md"><img alt="CC BY-NC-SA 4.0" src="https://img.shields.io/badge/assets-CC%20BY--NC--SA%204.0-EF9421?style=flat-square"></a>
+  <a href="https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest"><img alt="GitHub Release v1.0.1" src="https://img.shields.io/badge/release-v1.0.1-2DA44E?style=flat-square&logo=github"></a>
 </p>
 
 <p align="center">
@@ -47,7 +48,7 @@ Joi is a virtual streamer active on the Chinese video platform Bilibili and affi
 
 She likes pixel art, cyberpunk, and the film *Blade Runner*. She dislikes exercise. Her special talent is eating an entire orange in one bite, and she considers oranges the most perfect fruit. The orange `🍊` has also become her de facto, unofficial emoji. Follow [Joi_Channel's Bilibili profile](https://space.bilibili.com/61639371).
 
-This repository is an independent, unofficial Codex Pet v2 fan project for personal, non-commercial use only.
+This repository is an independent, unofficial Codex Pet v2 fan project. Code, configuration, and documentation text use the MIT License; original visual and animation contributions use CC BY-NC-SA 4.0.
 
 | Codex Pet | Standard actions | Gaze directions | Cell |
 | :---: | :---: | :---: | :---: |
@@ -149,10 +150,10 @@ This repository is an independent, unofficial Codex Pet v2 fan project for perso
 | Standard animations | 9 rows |
 | Gaze directions | 16 |
 | Project type | Unofficial fan work |
-| License | Non-commercial use only |
+| License | Code/config/docs: MIT; original visuals and animation: CC BY-NC-SA 4.0 |
 | Local installation directory | `~/.codex/pets/joi/` |
 
-**Asset files:** [`pet.json`](./pet/pet.json) · [`spritesheet.webp`](./pet/spritesheet.webp) · [GitHub Release package](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest/download/joi-pet.zip) · [License](./LICENSE.md)
+**Asset files:** [`pet.json`](./pet/pet.json) · [`spritesheet.webp`](./pet/spritesheet.webp) · [GitHub Release package](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest/download/joi-pet.zip) · [MIT License](./LICENSE) · [Asset license](./LICENSE-ASSETS.md)
 
 <details>
 <summary><strong>View repository structure and naming conventions</strong></summary>
@@ -164,7 +165,8 @@ joi-channel-codex-hatch-pet/
 ├── README.ja.md
 ├── README.ko.md
 ├── README.fr.md
-├── LICENSE.md
+├── LICENSE
+├── LICENSE-ASSETS.md
 ├── THIRD_PARTY_NOTICES.md
 ├── pet/
 │   ├── pet.json
@@ -200,24 +202,18 @@ cp pet/pet.json pet/spritesheet.webp "$PET_DIR/"
 
 ## License and rights notice
 
+This repository uses split licensing:
+
+- code, project-authored configuration, and documentation text use the [MIT License](./LICENSE);
+- project-authored original visual and animation contributions embodied in `assets/` and `pet/spritesheet.webp` use [CC BY-NC-SA 4.0](./LICENSE-ASSETS.md), requiring attribution, non-commercial use, and ShareAlike distribution.
+
 > [!WARNING]
-> This is an unofficial fan project for personal, non-commercial use only. Sales, paid distribution, advertising or sponsorship monetization, commercial bundling, NFT or blockchain use, and any implication of official authorization or endorsement are prohibited.
+> Both licenses cover only original contributions that the project maintainers or contributors are legally entitled to license. They grant no rights in Joi's name, character design or settings, nor in the names, trademarks, materials, or references of VirtuaReal, Bilibili, or any other third party.
 
-<details>
-<summary><strong>View a summary of prohibited uses</strong></summary>
-
-- Sales, paid downloads, paid distribution, subscriptions, or members-only access;
-- advertising, sponsorship, commercial promotion, product placement, or other revenue-driven traffic;
-- commercial software, client projects, paid services, or bundling with commercial products;
-- NFTs, digital collectibles, tokens, or other blockchain assets;
-- impersonating an official work or implying authorization, approval, or endorsement by Joi, VirtuaReal, Bilibili, or any other rights holder.
-
-</details>
-
-The license covers only original contributions that the project maintainers or contributors are legally entitled to license. See [`LICENSE.md`](./LICENSE.md) for the complete terms and [`THIRD_PARTY_NOTICES.md`](./THIRD_PARTY_NOTICES.md) for boundaries concerning the character, brands, and source material.
+See [`THIRD_PARTY_NOTICES.md`](./THIRD_PARTY_NOTICES.md) for the complete boundaries concerning the character, brands, and source material.
 
 ---
 
 <p align="center">
-  <sub>Unofficial fan project · Non-commercial only</sub>
+  <sub>Unofficial fan project · Code MIT · Original assets CC BY-NC-SA 4.0</sub>
 </p>

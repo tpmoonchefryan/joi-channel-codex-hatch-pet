@@ -25,8 +25,9 @@
 <p align="center">
   <img alt="Codex Pet v2" src="https://img.shields.io/badge/Codex%20Pet-v2-8B5CF6?style=flat-square">
   <img alt="Atlas 1536 by 2288" src="https://img.shields.io/badge/atlas-1536%C3%972288-475569?style=flat-square">
-  <a href="./LICENSE.md"><img alt="非商业许可证" src="https://img.shields.io/badge/license-non--commercial-E11D48?style=flat-square"></a>
-  <a href="https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest"><img alt="GitHub Release v1.0.0" src="https://img.shields.io/badge/release-v1.0.0-2DA44E?style=flat-square&logo=github"></a>
+  <a href="./LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/code-MIT-3DA639?style=flat-square"></a>
+  <a href="./LICENSE-ASSETS.md"><img alt="CC BY-NC-SA 4.0" src="https://img.shields.io/badge/assets-CC%20BY--NC--SA%204.0-EF9421?style=flat-square"></a>
+  <a href="https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest"><img alt="GitHub Release v1.0.1" src="https://img.shields.io/badge/release-v1.0.1-2DA44E?style=flat-square&logo=github"></a>
 </p>
 
 <p align="center">
@@ -51,7 +52,7 @@
 
 特长是「一口能吃一个带橘子」，并认为橘子是最完美的水果。橘子「🍊」亦成为了轴伊的事实 emoji 代表（非公式）。欢迎关注[轴伊Joi_Channel的哔哩哔哩个人主页](https://space.bilibili.com/61639371)。
 
-本仓库是粉丝独立制作的非官方 Codex Pet v2 桌宠作品，仅供个人非商业使用。
+本仓库是粉丝独立制作的非官方 Codex Pet v2 桌宠作品。代码、配置与文档文字采用 MIT License；原创视觉与动画贡献采用 CC BY-NC-SA 4.0。
 
 | Codex Pet | 标准动作 | 凝视方向 | 单元格 |
 | :---: | :---: | :---: | :---: |
@@ -153,10 +154,10 @@
 | 标准动画 | 9 行 |
 | 凝视方向 | 16 个 |
 | 作品性质 | 非官方粉丝作品 |
-| 许可 | 仅限非商业用途 |
+| 许可 | 代码／配置／文档：MIT；原创视觉与动画：CC BY-NC-SA 4.0 |
 | 本地安装目录 | `~/.codex/pets/joi/` |
 
-**文件入口：** [`pet.json`](./pet/pet.json) · [`spritesheet.webp`](./pet/spritesheet.webp) · [GitHub Release 安装包](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest/download/joi-pet.zip) · [许可证](./LICENSE.md)
+**文件入口：** [`pet.json`](./pet/pet.json) · [`spritesheet.webp`](./pet/spritesheet.webp) · [GitHub Release 安装包](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest/download/joi-pet.zip) · [MIT License](./LICENSE) · [素材许可证](./LICENSE-ASSETS.md)
 
 <details>
 <summary><strong>查看仓库结构与命名约定</strong></summary>
@@ -168,7 +169,8 @@ joi-channel-codex-hatch-pet/
 ├── README.ja.md
 ├── README.ko.md
 ├── README.fr.md
-├── LICENSE.md
+├── LICENSE
+├── LICENSE-ASSETS.md
 ├── THIRD_PARTY_NOTICES.md
 ├── pet/
 │   ├── pet.json
@@ -204,24 +206,18 @@ cp pet/pet.json pet/spritesheet.webp "$PET_DIR/"
 
 ## 许可与权利声明
 
+本仓库采用分类授权：
+
+- 代码、项目原创配置与文档文字采用 [MIT License](./LICENSE)；
+- `assets/` 与 `pet/spritesheet.webp` 中项目作者依法有权许可的原创视觉和动画贡献采用 [CC BY-NC-SA 4.0](./LICENSE-ASSETS.md)，要求署名、非商业性使用及相同方式共享。
+
 > [!WARNING]
-> 本项目是非官方粉丝作品，仅限个人非商业使用。禁止销售、收费分发、广告或赞助获利、商业捆绑、NFT／区块链用途，以及任何暗示官方授权或背书的行为。
+> 两份许可证均只覆盖项目维护者或贡献者依法有权许可的原创部分，不授予轴伊Joi 的姓名、角色形象、设定，以及 VirtuaReal、哔哩哔哩或其他第三方名称、商标、素材和参考资料的任何权利。
 
-<details>
-<summary><strong>展开查看禁止使用范围摘要</strong></summary>
-
-- 销售、收费下载、付费分发、订阅或会员专享；
-- 广告、赞助、商业推广、带货或其他收益导流；
-- 商业软件、客户项目、收费服务或商业产品捆绑；
-- NFT、数字藏品、代币或其他区块链资产；
-- 冒充官方作品，或暗示获得轴伊Joi、VirtuaReal、哔哩哔哩及其他权利方的授权、认可或背书。
-
-</details>
-
-许可仅覆盖项目维护者或贡献者依法有权许可的原创部分。完整条款见 [`LICENSE.md`](./LICENSE.md)，角色、品牌与资料来源的权利边界见 [`THIRD_PARTY_NOTICES.md`](./THIRD_PARTY_NOTICES.md)。
+角色、品牌与资料来源的完整权利边界见 [`THIRD_PARTY_NOTICES.md`](./THIRD_PARTY_NOTICES.md)。
 
 ---
 
 <p align="center">
-  <sub>Unofficial fan project · Non-commercial only</sub>
+  <sub>Unofficial fan project · Code MIT · Original assets CC BY-NC-SA 4.0</sub>
 </p>

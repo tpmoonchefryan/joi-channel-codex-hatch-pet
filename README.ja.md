@@ -25,8 +25,9 @@
 <p align="center">
   <img alt="Codex Pet v2" src="https://img.shields.io/badge/Codex%20Pet-v2-8B5CF6?style=flat-square">
   <img alt="Atlas 1536 by 2288" src="https://img.shields.io/badge/atlas-1536%C3%972288-475569?style=flat-square">
-  <a href="./LICENSE.md"><img alt="非商用ライセンス" src="https://img.shields.io/badge/license-non--commercial-E11D48?style=flat-square"></a>
-  <a href="https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest"><img alt="GitHub Release v1.0.0" src="https://img.shields.io/badge/release-v1.0.0-2DA44E?style=flat-square&logo=github"></a>
+  <a href="./LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/code-MIT-3DA639?style=flat-square"></a>
+  <a href="./LICENSE-ASSETS.md"><img alt="CC BY-NC-SA 4.0" src="https://img.shields.io/badge/assets-CC%20BY--NC--SA%204.0-EF9421?style=flat-square"></a>
+  <a href="https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest"><img alt="GitHub Release v1.0.1" src="https://img.shields.io/badge/release-v1.0.1-2DA44E?style=flat-square&logo=github"></a>
 </p>
 
 <p align="center">
@@ -147,10 +148,10 @@ Joi は、中国の動画プラットフォーム Bilibili で活動し、バー
 | 標準アニメーション | 9行 |
 | 視線方向 | 16方向 |
 | 作品の位置づけ | 非公式ファン作品 |
-| ライセンス | 非商用利用のみ |
+| ライセンス | コード／設定／文書：MIT；オリジナルのビジュアルとアニメーション：CC BY-NC-SA 4.0 |
 | ローカルインストール先 | `~/.codex/pets/joi/` |
 
-**ファイル：** [`pet.json`](./pet/pet.json) · [`spritesheet.webp`](./pet/spritesheet.webp) · [GitHub Release パッケージ](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest/download/joi-pet.zip) · [ライセンス](./LICENSE.md)
+**ファイル：** [`pet.json`](./pet/pet.json) · [`spritesheet.webp`](./pet/spritesheet.webp) · [GitHub Release パッケージ](https://github.com/tpmoonchefryan/joi-channel-codex-hatch-pet/releases/latest/download/joi-pet.zip) · [MIT License](./LICENSE) · [アセットライセンス](./LICENSE-ASSETS.md)
 
 <details>
 <summary><strong>リポジトリ構成と命名規約を表示</strong></summary>
@@ -162,7 +163,8 @@ joi-channel-codex-hatch-pet/
 ├── README.ja.md
 ├── README.ko.md
 ├── README.fr.md
-├── LICENSE.md
+├── LICENSE
+├── LICENSE-ASSETS.md
 ├── THIRD_PARTY_NOTICES.md
 ├── pet/
 │   ├── pet.json
@@ -199,24 +201,18 @@ cp pet/pet.json pet/spritesheet.webp "$PET_DIR/"
 
 ## ライセンスと権利
 
+本リポジトリは次のデュアルライセンスを採用しています。
+
+- コード、プロジェクト独自の設定、文書テキストには [MIT License](./LICENSE) を適用します。
+- `assets/` と `pet/spritesheet.webp` に含まれる、プロジェクト作者が権利を有するオリジナルのビジュアルおよびアニメーションへの寄与には [CC BY-NC-SA 4.0](./LICENSE-ASSETS.md) を適用し、表示、非営利、継承を要件とします。
+
 > [!WARNING]
-> 本作品は非公式・非商用のファン作品であり、個人による非商用利用に限られます。販売、有料配布、収益化、商用サービスへの組み込み、ブロックチェーン用途、および公式の許諾や推奨があると誤認させる行為は禁止されています。
+> いずれのライセンスも、プロジェクト管理者または貢献者が法的に許諾できるオリジナル部分のみを対象とします。Joi の名称、キャラクターデザインや設定、VirtuaReal、Bilibili その他の第三者の名称、商標、素材、参考資料に関する権利は付与しません。
 
-<details>
-<summary><strong>禁止される利用範囲の概要を表示</strong></summary>
-
-- 販売、有料ダウンロード、有料配布、購読者または会員限定での提供；
-- 広告、スポンサー、商用プロモーション、その他の収益化；
-- 商用ソフトウェア、顧客向け案件、有料サービス、商用製品への組み込みや同梱；
-- NFT、デジタルコレクティブル、トークンその他のブロックチェーン用途；
-- 公式作品を装うこと、または Joi、VirtuaReal、Bilibili その他の権利者による許諾、承認、推奨があると示唆すること。
-
-</details>
-
-Joi の名称、キャラクター像、設定、ならびに VirtuaReal、Bilibili その他の第三者に属する名称、商標、素材等の権利は、それぞれの正当な権利者に留保されます。本リポジトリのライセンスは、それら第三者の権利を付与するものではありません。詳細は [`LICENSE.md`](./LICENSE.md) と [`THIRD_PARTY_NOTICES.md`](./THIRD_PARTY_NOTICES.md) を参照してください。
+キャラクター、ブランド、資料の権利範囲については [`THIRD_PARTY_NOTICES.md`](./THIRD_PARTY_NOTICES.md) を参照してください。
 
 ---
 
 <p align="center">
-  <sub>Unofficial fan project · Non-commercial only</sub>
+  <sub>Unofficial fan project · Code MIT · Original assets CC BY-NC-SA 4.0</sub>
 </p>
